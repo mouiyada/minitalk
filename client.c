@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   client.c                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: kyamada <kyamada@student.42.fr>            +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/09/10 16:19:34 by kyamada           #+#    #+#             */
+/*   Updated: 2025/09/10 16:19:55 by kyamada          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft/libft.h"
 #include <signal.h>
 #include <stdio.h>
@@ -11,7 +23,7 @@ void	send_signal(int pid, unsigned char character)
 	while (i > 0)
 	{
 		i--;
-		if (((character >>i) & 1) == 0)
+		if (((character >> i) & 1) == 0)
 			kill(pid, SIGUSR2);
 		else
 			kill(pid, SIGUSR1);

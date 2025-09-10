@@ -6,7 +6,7 @@
 /*   By: kyamada <kyamada@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/09 12:42:52 by kyamada           #+#    #+#             */
-/*   Updated: 2025/05/04 17:30:31 by kyamada          ###   ########.fr       */
+/*   Updated: 2025/09/10 16:22:48 by kyamada          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,16 +73,16 @@ void				ft_lstiter(t_list *lst, void (*f)(void *));
 t_list				*ft_lstmap(t_list *lst, void *(*f)(void *),
 						void (*del)(void *));
 
- int             ft_putstr(char *str);
- int             ft_putnbr(int n);
- int             ft_putuns(unsigned long n);
- int             ft_putchar(char c);
- int             ft_puthex1(unsigned int n);
- int             ft_puthex2(unsigned int n);
- int             ft_puthex3(long long unsigned int n);
- int             ft_putptr(void *arg);
- char            ft_strsearch(const char c, const char *little);
- int             ft_checktype(int c, va_list args);
- int             ft_printf(const char *format, ...);
+int					ft_putstr(char *str);
+int					ft_putnbr(int n);
+int					ft_putuns(unsigned long n);
+int					ft_putchar(char c);
+int					ft_puthex1(unsigned int n);
+int					ft_puthex2(unsigned int n);
+int					ft_puthex3(long long unsigned int n);
+int					ft_putptr(void *arg);
+char				ft_strsearch(const char c, const char *little);
+int					ft_checktype(int c, va_list args);
+int					ft_printf(const char *format, ...);
 
 #endif

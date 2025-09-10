@@ -5,12 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: kyamada <kyamada@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/11/04 14:09:58 by kyamada           #+#    #+#             */
-/*   Updated: 2025/01/02 11:29:32 by kyamada          ###   ########.fr       */
+/*   Created: 2025/09/10 16:20:58 by kyamada           #+#    #+#             */
+/*   Updated: 2025/09/10 16:26:53 by kyamada          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stdlib.h>
+#include <stdlib.h>
 
 int	ft_atoi(const char *nptr)
 {

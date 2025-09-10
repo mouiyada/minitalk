@@ -6,11 +6,11 @@
 /*   By: kyamada <kyamada@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/02 11:51:49 by kyamada           #+#    #+#             */
-/*   Updated: 2025/01/04 12:19:02 by kyamada          ###   ########.fr       */
+/*   Updated: 2025/09/10 16:23:08 by kyamada          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stdlib.h>
+#include <stdlib.h>
 
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {

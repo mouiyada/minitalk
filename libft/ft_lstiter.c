@@ -6,7 +6,7 @@
 /*   By: kyamada <kyamada@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/04 10:54:01 by kyamada           #+#    #+#             */
-/*   Updated: 2025/05/04 17:22:05 by kyamada          ###   ########.fr       */
+/*   Updated: 2025/09/10 16:24:58 by kyamada          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ void	ft_lstiter(t_list *lst, void (*f)(void *))
 		return ;
 	while (lst)
 	{
-	f(lst->content);
-	lst = lst->next;
+		f(lst->content);
+		lst = lst->next;
 	}
 }

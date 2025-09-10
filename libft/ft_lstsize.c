@@ -6,24 +6,23 @@
 /*   By: kyamada <kyamada@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/04 10:54:01 by kyamada           #+#    #+#             */
-/*   Updated: 2025/05/04 17:22:16 by kyamada          ###   ########.fr       */
+/*   Updated: 2025/09/10 16:35:39 by kyamada          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 #include "libft.h"
 
 int	ft_lstsize(t_list *lst)
 {
-    int count;
+	int	count;
 
-    count = 0;
+	count = 0;
 	if (!lst)
 		return (0);
-    while(lst)
-    {
-        count++;
-        lst = lst->next;
-    }
-	return(count) ;
+	while (lst)
+	{
+		count++;
+		lst = lst->next;
+	}
+	return (count);
 }

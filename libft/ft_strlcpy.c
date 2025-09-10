@@ -6,11 +6,11 @@
 /*   By: kyamada <kyamada@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/03 14:49:23 by kyamada           #+#    #+#             */
-/*   Updated: 2024/12/01 15:13:55 by kyamada          ###   ########.fr       */
+/*   Updated: 2025/09/10 16:23:18 by kyamada          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stdlib.h>
+#include <stdlib.h>
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t n)
 {
